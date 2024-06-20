@@ -10,11 +10,22 @@
 <body>
     <main class="bg-principal">
         <nav class="sidebar">
-            Sidebar
+            <div class="foto">
+                <img src="Images/Me.png" alt="Edson Coj" style="width: 100%;">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a onclick="navigate('Edson')">Edson</a></li>
+                    <li><a onclick="navigate('SobreMi')">Sobre mi</a></li>
+                    <li><a onclick="navigate('Portfolio')">Portafolio</a></li>
+                    <li><a onclick="navigate('Formacion')">Formacion</a></li>
+                    <li><a onclick="navigate('Habilidad')">Habilidad</a></li>
+                    <li><a onclick="navigate('Contacto')">Contacto</a></li>
+                </ul>
+            </div>
         </nav>
-        <section class="content">
-            Contenido
-        </section>
+        <section class="content" id="content"></section>
     </main>
+    <script src="/Scripts/script.js"></script>
 </body>
 </html>
