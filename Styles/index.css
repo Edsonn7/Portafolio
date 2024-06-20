@@ -1,0 +1,16 @@
+.bg-principal{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+}
+
+.sidebar{
+    width: 150px;
+    background-color: #52B788;
+}
+
+.content{
+    flex-grow: 1;
+    background-color: #1B4332;
+}
